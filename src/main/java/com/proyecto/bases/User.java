@@ -1,6 +1,6 @@
 
-
-public class User {
+//Clase papi de todos los usuarios, solo returneará sus datos
+public abstract class User {
 
     //atributos
     private int id;
@@ -26,4 +26,8 @@ public class User {
     public boolean compare(String password) {
         return this.password.equals(password);
     }
+
+    //según entendí, abstract es para que las subclases implementen este método, y no instanciar un User directamente. (encapsulamiento supongo?)
+    public abstract String getRole();
+
 }
