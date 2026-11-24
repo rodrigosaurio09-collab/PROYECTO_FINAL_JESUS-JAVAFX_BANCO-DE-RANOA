@@ -1,3 +1,5 @@
+package com.proyecto.bases;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import java.util.List;
 
     //private y final para que no se pueda modificar desde afuera, encapsulamiento
     //es el número de cuenta
-    private final String AcNumber;
+    private final String acNumber;
 
     //el saldo
     private double balance;
