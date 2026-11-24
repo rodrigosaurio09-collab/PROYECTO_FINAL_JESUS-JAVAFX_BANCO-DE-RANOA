@@ -17,7 +17,7 @@ import javafx.stage.Stage;
 public class App extends Application {
     @Override
     public void start(Stage stage) {
-        
+
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/com/proyecto/views/login.fxml"));
             Scene scene = new Scene(root);
@@ -34,3 +34,4 @@ public class App extends Application {
     }
 
 }
+h
