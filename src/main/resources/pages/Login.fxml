@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox
+spacing="10.0" alignment="CENTER"
+>
+    <Label text="Ingresa tu usuario" />
+    <TextField></TextField>
+
+    <Label text="Ingresa tu contraseña" />
+    <TextField></TextField>
+    <Button text="Iniciar sesión"></Button>
+</VBox>

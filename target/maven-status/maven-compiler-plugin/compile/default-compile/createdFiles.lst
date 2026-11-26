@@ -1,0 +1,5 @@
+module-info.class
+com/proyecto/App.class
+com/proyecto/database/dbConnect.class
+com/proyecto/controllers/MainController.class
+com/proyecto/SystemInfo.class
