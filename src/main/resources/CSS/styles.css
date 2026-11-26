@@ -21,6 +21,6 @@
     -fx-cursor: hand;
 }
 
-button:hover{
+button.hover{
     -fx-background-color: #701d7b;
 }
